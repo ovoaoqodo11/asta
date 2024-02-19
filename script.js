@@ -4,13 +4,7 @@ let RANGE;
 
 const currentPage = window.location.pathname;
 
-if (currentPage === '/' || currentPage === '/index.html') {
-    RANGE = '시트1!A2:H500';
-} else if (currentPage === '/wwt.html') {
-    RANGE = '시트2!A2:H5000';
-} else {
-    console.error('Invalid page or RANGE not set');
-}
+RANGE = '시트1!A2:H500';
 
 // 활용할 값 초기화
 let values = [];
