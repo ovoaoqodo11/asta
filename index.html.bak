@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Data Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- ... (생략) ... -->
+<div class="container">
+    <h2>차량검색</h2>
+    <input type="text" id="search-input" placeholder="D열 데이터 검색..." />
+    <table id="data-table">
+        <!-- JavaScript에서 생성한 테이블 로우가 이 위치에 삽입됩니다 -->
+    </table>
+</div>
+
+</body>
+</html>
